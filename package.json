@@ -1,0 +1,26 @@
+{
+  "name": "evm-gas-optimisation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "hh:blockNo": "hardhat blockNumber",
+    "hh:clean": "hardhat clean",
+    "gas:test": "hardhat run ./scripts/Gas/Test.ts"
+  },
+  "author": "Mohammad Amir <amir@connextar.com>",
+  "license": "ISC",
+  "description": "Encode EVM BC 2024 Q4 - Lesson 17 - Gas Optimisation",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "typescript": "^5"
+  }
+}
